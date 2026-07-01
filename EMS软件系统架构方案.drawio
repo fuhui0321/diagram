@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="pox43T1xOEXjTd9FCBCb">
+    <mxGraphModel dx="1030" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rKJJU_Trjp2D-k5HkyLU-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="应用层" vertex="1">
+          <mxGeometry height="150" width="520" x="80" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rKJJU_Trjp2D-k5HkyLU-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="WEB前端" vertex="1">
+          <mxGeometry height="30" width="430" x="120" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rKJJU_Trjp2D-k5HkyLU-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="JAVA后端" vertex="1">
+          <mxGeometry height="70" width="430" x="120" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rKJJU_Trjp2D-k5HkyLU-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="服务层" vertex="1">
+          <mxGeometry height="180" width="520" x="75" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="rKJJU_Trjp2D-k5HkyLU-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MySql" vertex="1">
+          <mxGeometry height="60" width="120" x="730" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rKJJU_Trjp2D-k5HkyLU-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="TDengine" vertex="1">
+          <mxGeometry height="60" width="120" x="730" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rKJJU_Trjp2D-k5HkyLU-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Redis" vertex="1">
+          <mxGeometry height="60" width="120" x="730" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="rKJJU_Trjp2D-k5HkyLU-9" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="360" as="sourcePoint" />
+            <mxPoint x="140" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rKJJU_Trjp2D-k5HkyLU-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;报警数据&lt;/div&gt;&lt;div&gt;SOE&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="75" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
