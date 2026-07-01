@@ -13,6 +13,17 @@
         <mxCell id="rKJJU_Trjp2D-k5HkyLU-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="JAVA后端" vertex="1">
           <mxGeometry height="70" width="430" x="120" y="210" as="geometry" />
         </mxCell>
+        <mxCell id="xMZXzjuvX-VrFNcZFtR1-2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rKJJU_Trjp2D-k5HkyLU-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="463" as="sourcePoint" />
+            <mxPoint x="730" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xMZXzjuvX-VrFNcZFtR1-3" connectable="0" parent="xMZXzjuvX-VrFNcZFtR1-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="实时数据更新" vertex="1">
+          <mxGeometry relative="1" x="0.1073" as="geometry">
+            <mxPoint x="17" y="-76" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rKJJU_Trjp2D-k5HkyLU-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="服务层" vertex="1">
           <mxGeometry height="180" width="520" x="75" y="368" as="geometry" />
         </mxCell>
@@ -31,8 +42,23 @@
             <mxPoint x="140" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rKJJU_Trjp2D-k5HkyLU-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;报警数据&lt;/div&gt;&lt;div&gt;SOE&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="75" y="320" as="geometry" />
+        <mxCell id="rKJJU_Trjp2D-k5HkyLU-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;实时报警数据&lt;/div&gt;&lt;div&gt;历史SOE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="105" x="30" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="xMZXzjuvX-VrFNcZFtR1-4" edge="1" parent="1" source="rKJJU_Trjp2D-k5HkyLU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rKJJU_Trjp2D-k5HkyLU-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="413" />
+              <mxPoint x="640" y="230" />
+            </Array>
+            <mxPoint x="700" y="593" as="sourcePoint" />
+            <mxPoint x="835" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xMZXzjuvX-VrFNcZFtR1-5" connectable="0" parent="xMZXzjuvX-VrFNcZFtR1-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="历史数据" vertex="1">
+          <mxGeometry relative="1" x="0.1073" as="geometry">
+            <mxPoint x="50" y="-52" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
