@@ -54,17 +54,6 @@
             <mxPoint x="33" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xMZXzjuvX-VrFNcZFtR1-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="rKJJU_Trjp2D-k5HkyLU-1" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="151" y="338" as="sourcePoint" />
-            <mxPoint x="201" y="288" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xMZXzjuvX-VrFNcZFtR1-7" connectable="0" parent="xMZXzjuvX-VrFNcZFtR1-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;实时报警数据&lt;/div&gt;&lt;div&gt;历史SOE&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="0.1487" as="geometry">
-            <mxPoint x="-40" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="xMZXzjuvX-VrFNcZFtR1-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EMQX" vertex="1">
           <mxGeometry height="60" width="120" x="671" y="155" as="geometry" />
         </mxCell>
@@ -82,6 +71,11 @@
         <mxCell id="xMZXzjuvX-VrFNcZFtR1-12" connectable="0" parent="xMZXzjuvX-VrFNcZFtR1-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="系统配置" vertex="1">
           <mxGeometry relative="1" x="0.5828" y="2" as="geometry">
             <mxPoint x="12" y="-52" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xMZXzjuvX-VrFNcZFtR1-15" connectable="0" parent="xMZXzjuvX-VrFNcZFtR1-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;实时数据写&lt;/div&gt;&lt;div&gt;报警信息&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0632" y="-1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xMZXzjuvX-VrFNcZFtR1-14" edge="1" parent="1" source="rKJJU_Trjp2D-k5HkyLU-1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.001;entryY=0.089;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.019;exitY=0.208;exitDx=0;exitDy=0;exitPerimeter=0;" target="xMZXzjuvX-VrFNcZFtR1-13" value="">
