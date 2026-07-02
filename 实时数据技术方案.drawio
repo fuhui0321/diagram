@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="2tHdKMFToWtOkjgKqzSe">
-    <mxGraphModel>
+    <mxGraphModel dx="1030" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rx8-fsq25u29T6phauNN-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加载标签配置文件" vertex="1">
+          <mxGeometry height="50" width="126" x="294" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rx8-fsq25u29T6phauNN-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="生成协议包" vertex="1">
+          <mxGeometry height="50" width="126" x="300" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="rx8-fsq25u29T6phauNN-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="协议包的缓存与共享内存绑定，同时加入共享读写锁" vertex="1">
+          <mxGeometry height="50" width="126" x="300" y="320" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
