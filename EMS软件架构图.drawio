@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="cmYdW-KwAcN8iq6mTffT">
-    <mxGraphModel dx="975" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1488" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
         <mxCell id="tWvuuD-49sGy5XE3C95i-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#b0e3e6;strokeColor=#0e8088;" value="组态平台" vertex="1">
           <mxGeometry height="227" width="102" x="318" y="-107" as="geometry" />
         </mxCell>
-        <mxCell id="tWvuuD-49sGy5XE3C95i-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d0cee2;strokeColor=#56517e;" value="运行平台" vertex="1">
+        <mxCell id="tWvuuD-49sGy5XE3C95i-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d0cee2;strokeColor=#56517e;" value="监控平台" vertex="1">
           <mxGeometry height="227" width="261" x="429" y="-107" as="geometry" />
         </mxCell>
         <mxCell id="tWvuuD-49sGy5XE3C95i-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="点表配置" vertex="1">
