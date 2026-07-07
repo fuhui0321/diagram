@@ -259,7 +259,7 @@
         <mxCell id="v0J59R1EMO4tD5IYC0D5-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="IOT服务" vertex="1">
           <mxGeometry height="50" width="70" x="444" y="870" as="geometry" />
         </mxCell>
-        <mxCell id="v0J59R1EMO4tD5IYC0D5-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="站控层" vertex="1">
+        <mxCell id="v0J59R1EMO4tD5IYC0D5-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="应用层" vertex="1">
           <mxGeometry height="90" width="470" x="134" y="730" as="geometry" />
         </mxCell>
         <mxCell id="v0J59R1EMO4tD5IYC0D5-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="配置平台" vertex="1">
