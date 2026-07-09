@@ -85,17 +85,26 @@
         <mxCell id="kAXPQYTb_9ZiN3N-kw4B-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="主备仲裁节点" vertex="1">
           <mxGeometry height="60" width="120" x="310" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="kAXPQYTb_9ZiN3N-kw4B-30" edge="1" parent="1" source="kAXPQYTb_9ZiN3N-kw4B-26" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=3;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="370" y="210" as="sourcePoint" />
-            <mxPoint x="370" y="70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="kAXPQYTb_9ZiN3N-kw4B-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="IEC104/Modbus/IEC61850协议解析" vertex="1">
           <mxGeometry height="31" width="230" x="70" y="630" as="geometry" />
         </mxCell>
         <mxCell id="kAXPQYTb_9ZiN3N-kw4B-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="IEC104/Modbus/IEC61850协议解析" vertex="1">
           <mxGeometry height="31" width="230" x="430" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="kAXPQYTb_9ZiN3N-kw4B-33" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.025;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="331.5" y="299.5" as="sourcePoint" />
+            <mxPoint x="408.5" y="300.336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAXPQYTb_9ZiN3N-kw4B-35" edge="1" parent="1" source="kAXPQYTb_9ZiN3N-kw4B-26" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="kAXPQYTb_9ZiN3N-kw4B-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="650" as="sourcePoint" />
+            <mxPoint x="360" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kAXPQYTb_9ZiN3N-kw4B-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="心跳检测" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="690" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
