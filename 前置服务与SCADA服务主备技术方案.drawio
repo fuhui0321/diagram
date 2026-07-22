@@ -175,8 +175,8 @@
         <mxCell id="3wZPl1CzNyx5cLSE645p-20" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;HMI服务&lt;/h1&gt;主备双地址转移功能&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="79" width="220" x="605" y="1251" as="geometry" />
         </mxCell>
-        <mxCell id="KGKrghQkVs_gpMz36t_8-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据同步" vertex="1">
-          <mxGeometry height="30" width="60" x="290" y="1127" as="geometry" />
+        <mxCell id="KGKrghQkVs_gpMz36t_8-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;数据同步&lt;/div&gt;&lt;div&gt;通道同步&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="1131" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
