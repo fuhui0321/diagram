@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="B8DYWfWQNEIOsyKvfK1-">
-    <mxGraphModel dx="1230" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="824" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,7 +157,7 @@
             <mxPoint x="600" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3wZPl1CzNyx5cLSE645p-16" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;前置服务&lt;/h1&gt;&lt;div&gt;双节点HA心跳与角色协商&lt;/div&gt;&lt;div&gt;主前置服务数据实时同步到备前置服务（通道状态、通信参数、采集数据缓存）&lt;/div&gt;&lt;div&gt;主前置服务启动提供数据采集，备前置服务停止提供数据采集；&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+        <mxCell id="3wZPl1CzNyx5cLSE645p-16" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;前置服务&lt;/h1&gt;&lt;div&gt;双节点HA心跳与角色协商&lt;/div&gt;&lt;div&gt;主前置服务数据实时同步到备前置服务（通道状态、通信参数、采集数据缓存）&lt;/div&gt;&lt;div&gt;主前置服务启动提供数据采集，备前置服务停止提供数据采集；&lt;/div&gt;&lt;div&gt;同一时间只会向主RTDB Server传数据&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="141" width="220" x="600" y="1110" as="geometry" />
         </mxCell>
         <mxCell id="3wZPl1CzNyx5cLSE645p-17" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;双机热备&lt;/h1&gt;&lt;div&gt;主备机之间采用心跳来进行监测。启动时基于优先级自动协商，高优化级成为Master;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;备升主&lt;/b&gt;：STANDBY节点检测到MASTER心跳超时 → 自动提升为MASTER → 对外提供完整服务；&lt;/div&gt;&lt;div&gt;&lt;strong&gt;主降备&lt;/strong&gt;：MASTER检测到更高优先级节点（网络恢复时）→ 自动降级为STANDBY&lt;/div&gt;&lt;div&gt;&lt;b&gt;脑裂仲裁：&lt;/b&gt;双MASTER冲突时，低优先级节点主动退位&lt;/div&gt;" vertex="1">
@@ -174,6 +174,9 @@
         </mxCell>
         <mxCell id="3wZPl1CzNyx5cLSE645p-20" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;HMI服务&lt;/h1&gt;主备双地址转移功能&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="79" width="220" x="605" y="1251" as="geometry" />
+        </mxCell>
+        <mxCell id="KGKrghQkVs_gpMz36t_8-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据同步&lt;div&gt;通道同步&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="1139" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
