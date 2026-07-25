@@ -441,7 +441,22 @@
           <mxGeometry height="29" width="60" x="1111.76" y="1145.5" as="geometry" />
         </mxCell>
         <mxCell id="cfYEgXa5b00pTFR_0qSr-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="&lt;div&gt;MPSC Ring&amp;nbsp;&lt;/div&gt;&lt;div&gt;Buffer&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="60" x="1200" y="1090" as="geometry" />
+          <mxGeometry height="40" width="60" x="1233" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="cfYEgXa5b00pTFR_0qSr-46" edge="1" parent="1" style="endArrow=openThin;html=1;rounded=0;strokeWidth=5;fillColor=#0050ef;strokeColor=#001DBC;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1363" y="1180" as="sourcePoint" />
+            <mxPoint x="1363" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfYEgXa5b00pTFR_0qSr-47" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=14;strokeWidth=2;strokeColor=#0000FF;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1345" y="1110" />
+            </Array>
+            <mxPoint x="1295" y="1110" as="sourcePoint" />
+            <mxPoint x="1345" y="1148" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
