@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="cmYdW-KwAcN8iq6mTffT">
-    <mxGraphModel dx="589" dy="1495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="858" dy="1645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JqmhOjaaM19_uqQSOVVG-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="SCADA Server" vertex="1">
-          <mxGeometry height="200" width="585.76" x="814.24" y="1000" as="geometry" />
+          <mxGeometry height="230" width="585.76" x="814.24" y="970" as="geometry" />
         </mxCell>
         <mxCell id="cfYEgXa5b00pTFR_0qSr-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" value="RTDB" vertex="1">
-          <mxGeometry height="90" width="570" x="820" y="1100" as="geometry" />
+          <mxGeometry height="130" width="570" x="820" y="1060" as="geometry" />
         </mxCell>
         <mxCell id="tWvuuD-49sGy5XE3C95i-89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#bac8d3;strokeColor=#23445d;" value="服务层" vertex="1">
           <mxGeometry height="233" width="591" x="109" y="137" as="geometry" />
@@ -336,15 +336,15 @@
         </mxCell>
         <mxCell id="cfYEgXa5b00pTFR_0qSr-38" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1276" y="1162.33" as="sourcePoint" />
-            <mxPoint x="1256" y="1162.33" as="targetPoint" />
+            <mxPoint x="1285" y="1162.33" as="sourcePoint" />
+            <mxPoint x="1265" y="1162.33" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cfYEgXa5b00pTFR_0qSr-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RTDB-Server" vertex="1">
+        <mxCell id="cfYEgXa5b00pTFR_0qSr-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" value="RTDB-Server" vertex="1">
           <mxGeometry height="29" width="100" x="1290" y="1148" as="geometry" />
         </mxCell>
         <mxCell id="cfYEgXa5b00pTFR_0qSr-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;verticalAlign=top;" value="Share Memory" vertex="1">
-          <mxGeometry height="55" width="246" x="824" y="1130" as="geometry" />
+          <mxGeometry height="55" width="266" x="824" y="1130" as="geometry" />
         </mxCell>
         <mxCell id="cfYEgXa5b00pTFR_0qSr-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="DAQ Config Paser" vertex="1">
           <mxGeometry height="40" width="80" x="1630" y="1402" as="geometry" />
@@ -395,21 +395,21 @@
         </mxCell>
         <mxCell id="cfYEgXa5b00pTFR_0qSr-39" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1133" y="1162.08" as="sourcePoint" />
-            <mxPoint x="1093" y="1162.08" as="targetPoint" />
+            <mxPoint x="1202" y="1162.21" as="sourcePoint" />
+            <mxPoint x="1180" y="1162.21" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cfYEgXa5b00pTFR_0qSr-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="MPMC Ring Buffer" vertex="1">
-          <mxGeometry height="29" width="100" x="1150" y="1148" as="geometry" />
+        <mxCell id="cfYEgXa5b00pTFR_0qSr-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="&lt;div&gt;MPSC Ring&amp;nbsp;&lt;/div&gt;&lt;div&gt;Buffer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29" width="60" x="1202" y="1145.5" as="geometry" />
         </mxCell>
         <mxCell id="cfYEgXa5b00pTFR_0qSr-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Query" vertex="1">
-          <mxGeometry height="29" width="91.76" x="820" y="1060" as="geometry" />
+          <mxGeometry height="29" width="91.76" x="820" y="1019" as="geometry" />
         </mxCell>
         <mxCell id="cfYEgXa5b00pTFR_0qSr-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;fillColor=default;labelBackgroundColor=default;" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;Subscribe&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="29" width="91.76" x="921" y="1060" as="geometry" />
+          <mxGeometry height="29" width="91.76" x="921" y="1019" as="geometry" />
         </mxCell>
         <mxCell id="cfYEgXa5b00pTFR_0qSr-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;fillColor=default;labelBackgroundColor=default;" value="Write" vertex="1">
-          <mxGeometry height="29" width="91.76" x="1020" y="1060" as="geometry" />
+          <mxGeometry height="29" width="91.76" x="1020" y="1019" as="geometry" />
         </mxCell>
         <mxCell id="cfYEgXa5b00pTFR_0qSr-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#0000FF;" value="通讯驱动采集数据根据数据是否有变化或是否达到更新周期，往MPSC Ring推送数据" vertex="1">
           <mxGeometry height="30" width="76.88" x="1068.6799999999998" y="1290" as="geometry" />
@@ -433,6 +433,15 @@
             <mxPoint x="1040" y="1302" as="sourcePoint" />
             <mxPoint x="1060" y="1242" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cfYEgXa5b00pTFR_0qSr-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="&lt;div&gt;Shared Hash&lt;/div&gt;&lt;div&gt;分片哈希表&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="47" x="1033" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="cfYEgXa5b00pTFR_0qSr-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="&lt;div&gt;数据更新&lt;/div&gt;&lt;div&gt;消费线程&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29" width="60" x="1111.76" y="1145.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cfYEgXa5b00pTFR_0qSr-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="&lt;div&gt;MPSC Ring&amp;nbsp;&lt;/div&gt;&lt;div&gt;Buffer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="60" x="1200" y="1090" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
