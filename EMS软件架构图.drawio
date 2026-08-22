@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="第 1 页" id="cmYdW-KwAcN8iq6mTffT">
-    <mxGraphModel dx="2039" dy="1841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3655" dy="2743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -511,7 +511,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XFm86g3zQvKHDsnBrQva" name="第 2 页">
-    <mxGraphModel dx="2575" dy="1428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2357" dy="1312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -590,7 +590,7 @@
         <mxCell id="tqE3vNsxvy3ZSgHaaIT6-25" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="400" width="760" x="192" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="tqE3vNsxvy3ZSgHaaIT6-26" parent="tqE3vNsxvy3ZSgHaaIT6-25" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0" value="&lt;div&gt;AGC/AGV&lt;/div&gt;&lt;div&gt;服务器（主）&lt;/div&gt;" vertex="1">
+        <mxCell id="tqE3vNsxvy3ZSgHaaIT6-26" parent="tqE3vNsxvy3ZSgHaaIT6-25" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0" value="&lt;div&gt;AGC/AVC&lt;/div&gt;&lt;div&gt;服务器（主）&lt;/div&gt;" vertex="1">
           <mxGeometry height="51.49522799575821" width="88.9864617636297" x="-3.490962312477137" y="184.73913043478257" as="geometry" />
         </mxCell>
         <mxCell id="tqE3vNsxvy3ZSgHaaIT6-27" parent="tqE3vNsxvy3ZSgHaaIT6-25" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.server_rack" value="" vertex="1">
@@ -611,7 +611,7 @@
         <mxCell id="tqE3vNsxvy3ZSgHaaIT6-32" parent="tqE3vNsxvy3ZSgHaaIT6-25" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.server_rack" value="" vertex="1">
           <mxGeometry height="44.49323088181485" width="44.49323088181485" x="117.05232345407978" y="249.10816542948035" as="geometry" />
         </mxCell>
-        <mxCell id="tqE3vNsxvy3ZSgHaaIT6-33" parent="tqE3vNsxvy3ZSgHaaIT6-25" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0" value="&lt;div&gt;AGC/AGV&lt;/div&gt;&lt;div&gt;服务器（备）&lt;/div&gt;" vertex="1">
+        <mxCell id="tqE3vNsxvy3ZSgHaaIT6-33" parent="tqE3vNsxvy3ZSgHaaIT6-25" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0" value="&lt;div&gt;AGC/AVC&lt;/div&gt;&lt;div&gt;服务器（备）&lt;/div&gt;" vertex="1">
           <mxGeometry height="51.49522799575821" width="88.9864617636297" x="94.80570801317235" y="184.73913043478257" as="geometry" />
         </mxCell>
         <mxCell id="tqE3vNsxvy3ZSgHaaIT6-34" parent="tqE3vNsxvy3ZSgHaaIT6-25" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.server_rack" value="" vertex="1">
