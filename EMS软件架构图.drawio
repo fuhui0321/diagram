@@ -558,7 +558,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y-t4IPL97S17ALsLViR6" name="前置&amp;SCADA架构">
-    <mxGraphModel dx="1030" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2060" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -776,6 +776,180 @@
         </mxCell>
         <mxCell id="22NDh4A7PMUuHOYMiGQk-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始化DriverManager" vertex="1">
           <mxGeometry height="50" width="120" x="780" y="383.25" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" value="SCADA服务（主）" vertex="1">
+          <mxGeometry height="200" width="280" x="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" value="主" vertex="1">
+          <mxGeometry height="241" width="280" x="1080" y="289" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" value="SCADA服务（备）" vertex="1">
+          <mxGeometry height="200" width="280" x="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" value="前置服务1" vertex="1">
+          <mxGeometry height="140" width="260" x="1090" y="329" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Ring Buffer(数据流)&lt;div&gt;SPSC/MPSC&lt;/div&gt;&lt;div&gt;lock-free&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1120" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="RTDB&lt;div&gt;消费Ring Buffer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1120" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="产生Ring Buffer数据流" vertex="1">
+          <mxGeometry height="50" width="140" x="1100" y="359" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-8" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFAE23;strokeWidth=3;" target="3uursZIeVQPknrpAOZhJ-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1219.5" y="289" as="sourcePoint" />
+            <mxPoint x="1219.5" y="223" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="fes_Client&lt;div&gt;(TCP)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="80" x="1250" y="359" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Rtdb_Server&lt;div&gt;(TCP)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="90" x="1250" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-11" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFAE23;strokeWidth=3;" target="3uursZIeVQPknrpAOZhJ-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1230" y="290" as="sourcePoint" />
+            <mxPoint x="1249" y="223" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" value="备" vertex="1">
+          <mxGeometry height="241" width="280" x="1440" y="289" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" value="前置服务1" vertex="1">
+          <mxGeometry height="140" width="260" x="1450" y="329" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="产生Ring Buffer数据流" vertex="1">
+          <mxGeometry height="50" width="140" x="1460" y="359" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="fes_Client&lt;div&gt;(TCP)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="80" x="1610" y="359" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-16" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#3333FF;strokeWidth=3;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1590" y="289" as="sourcePoint" />
+            <mxPoint x="1590.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-17" edge="1" parent="1" source="3uursZIeVQPknrpAOZhJ-12" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.571;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;strokeColor=#3333FF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="3uursZIeVQPknrpAOZhJ-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1580" y="280" as="sourcePoint" />
+            <mxPoint x="1620" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-18" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.025;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="1363" y="409" as="sourcePoint" />
+            <mxPoint x="1440" y="409.836" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="心跳检测" vertex="1">
+          <mxGeometry height="30" width="60" x="1370" y="369" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="IEC104/Modbus/IEC61850协议解析" vertex="1">
+          <mxGeometry height="31" width="230" x="1100" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="IEC104/Modbus/IEC61850协议解析" vertex="1">
+          <mxGeometry height="31" width="230" x="1460" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-22" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.025;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="1361.5" y="99.5" as="sourcePoint" />
+            <mxPoint x="1438.5" y="100.33600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据同步&lt;div&gt;通道同步&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1370" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="心跳检测" vertex="1">
+          <mxGeometry height="30" width="60" x="1370" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HMI" vertex="1">
+          <mxGeometry height="60" width="120" x="1170" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;RTDB Server&lt;/div&gt;(主)" vertex="1">
+          <mxGeometry height="60" width="120" x="1030" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;RTDB Server&lt;/div&gt;&lt;div&gt;（备）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1300" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;前置服务&lt;/div&gt;（主）" vertex="1">
+          <mxGeometry height="60" width="120" x="1030" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;前置服务&lt;/div&gt;&lt;div&gt;（备）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1300" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-30" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;startWidth=9;startSize=6;endWidth=9;endSize=7;fillColor=#d5e8d4;strokeColor=#82b366;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="1170" y="934.5699999999999" as="sourcePoint" />
+            <mxPoint x="1290" y="935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="心跳检测" vertex="1">
+          <mxGeometry height="30" width="60" x="1200" y="899" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据同步&lt;div&gt;通道同步&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1200" y="945" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#0000FF;" target="3uursZIeVQPknrpAOZhJ-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1089.7" y="905" as="sourcePoint" />
+            <mxPoint x="1089.7" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#0000FF;" target="3uursZIeVQPknrpAOZhJ-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1090" y="905" as="sourcePoint" />
+            <mxPoint x="1140" y="855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#FFD966;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1360" y="905" as="sourcePoint" />
+            <mxPoint x="1360" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-36" edge="1" parent="1" source="3uursZIeVQPknrpAOZhJ-29" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFD966;" target="3uursZIeVQPknrpAOZhJ-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1260" y="885" as="sourcePoint" />
+            <mxPoint x="1260" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-37" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="3uursZIeVQPknrpAOZhJ-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1090" y="755" as="sourcePoint" />
+            <mxPoint x="1140" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-38" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="3uursZIeVQPknrpAOZhJ-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1360" y="755" as="sourcePoint" />
+            <mxPoint x="1500" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-39" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;前置服务&lt;/h1&gt;&lt;div&gt;双节点HA心跳与角色协商&lt;/div&gt;&lt;div&gt;主前置服务数据实时同步到备前置服务（通道状态、通信参数、采集数据缓存）&lt;/div&gt;&lt;div&gt;主前置服务启动提供数据采集，备前置服务停止提供数据采集；&lt;/div&gt;&lt;div&gt;同一时间只会向主RTDB Server传数据&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="141" width="220" x="1500" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-40" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;双机热备&lt;/h1&gt;&lt;div&gt;主备机之间采用心跳来进行监测。启动时基于优先级自动协商，高优化级成为Master;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;b&gt;备升主&lt;/b&gt;：STANDBY节点检测到MASTER心跳超时 → 自动提升为MASTER → 对外提供完整服务；&lt;/div&gt;&lt;div&gt;&lt;strong&gt;主降备&lt;/strong&gt;：MASTER检测到更高优先级节点（网络恢复时）→ 自动降级为STANDBY&lt;/div&gt;&lt;div&gt;&lt;b&gt;脑裂仲裁：&lt;/b&gt;双MASTER冲突时，低优先级节点主动退位&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="230" x="1500" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-41" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;startWidth=9;startSize=6;endWidth=9;endSize=7;fillColor=#d5e8d4;strokeColor=#82b366;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="1160" y="790.5699999999999" as="sourcePoint" />
+            <mxPoint x="1280" y="791" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="心跳检测" vertex="1">
+          <mxGeometry height="30" width="60" x="1190" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-43" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;HMI服务&lt;/h1&gt;主备双地址转移功能&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="79" width="220" x="1505" y="916" as="geometry" />
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;数据同步&lt;/div&gt;&lt;div&gt;通道同步&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1190" y="796" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
