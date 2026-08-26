@@ -558,7 +558,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y-t4IPL97S17ALsLViR6" name="前置&amp;SCADA架构">
-    <mxGraphModel dx="1178" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1664" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -605,7 +605,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BQ5WajD2gcJUYFHTgybd-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6666FF;strokeColor=#006EAF;fontColor=#ffffff;fillStyle=solid;gradientColor=#CCE5FF;" value="协议转发总线" vertex="1">
-          <mxGeometry height="21" width="571.52" x="104.24000000000001" y="745" as="geometry" />
+          <mxGeometry height="21" width="571.52" x="140.38" y="1345.5" as="geometry" />
         </mxCell>
         <mxCell id="BQ5WajD2gcJUYFHTgybd-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="MPSC Ring Buffer" vertex="1">
           <mxGeometry height="29" width="79" x="352.76" y="519" as="geometry" />
@@ -769,13 +769,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="22NDh4A7PMUuHOYMiGQk-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加载Daq配置文件" vertex="1">
-          <mxGeometry height="50" width="120" x="780" y="214.5" as="geometry" />
+          <mxGeometry height="50" width="120" x="816.14" y="815" as="geometry" />
         </mxCell>
         <mxCell id="22NDh4A7PMUuHOYMiGQk-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始化RTDB-Server" vertex="1">
-          <mxGeometry height="50" width="120" x="780" y="294.5" as="geometry" />
+          <mxGeometry height="50" width="120" x="816.14" y="895" as="geometry" />
         </mxCell>
         <mxCell id="22NDh4A7PMUuHOYMiGQk-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始化DriverManager" vertex="1">
-          <mxGeometry height="50" width="120" x="780" y="383.25" as="geometry" />
+          <mxGeometry height="50" width="120" x="816.14" y="983.75" as="geometry" />
         </mxCell>
         <mxCell id="3uursZIeVQPknrpAOZhJ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" value="SCADA服务（主）" vertex="1">
           <mxGeometry height="200" width="280" x="1080" as="geometry" />
