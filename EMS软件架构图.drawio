@@ -558,7 +558,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y-t4IPL97S17ALsLViR6" name="前置&amp;SCADA架构">
-    <mxGraphModel dx="858" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -629,7 +629,7 @@
           <mxGeometry height="29" width="100" x="575.76" y="417" as="geometry" />
         </mxCell>
         <mxCell id="BQ5WajD2gcJUYFHTgybd-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;verticalAlign=top;" value="Share Memory" vertex="1">
-          <mxGeometry height="55" width="266" x="109.75999999999999" y="399" as="geometry" />
+          <mxGeometry height="60" width="266" x="109.76" y="394" as="geometry" />
         </mxCell>
         <mxCell id="BQ5WajD2gcJUYFHTgybd-22" edge="1" parent="1" style="endArrow=openThin;html=1;rounded=0;strokeWidth=5;fillColor=#008a00;strokeColor=#005700;endFill=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -995,6 +995,9 @@
           <mxGeometry relative="1" x="0.0539" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3uursZIeVQPknrpAOZhJ-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="&lt;div&gt;数据更新&lt;/div&gt;&lt;div&gt;消费线程&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29" width="60" x="250" y="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
