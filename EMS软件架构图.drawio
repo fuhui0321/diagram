@@ -558,7 +558,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y-t4IPL97S17ALsLViR6" name="前置&amp;SCADA架构">
-    <mxGraphModel dx="710" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="858" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -725,14 +725,14 @@
             <mxPoint x="648.76" y="499" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BQ5WajD2gcJUYFHTgybd-43" edge="1" parent="1" source="BQ5WajD2gcJUYFHTgybd-41" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=14;strokeWidth=2;strokeColor=#0000FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+        <mxCell id="BQ5WajD2gcJUYFHTgybd-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=14;strokeWidth=2;strokeColor=#0000FF;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="595.76" y="377.5" />
-              <mxPoint x="609.76" y="377.5" />
+              <mxPoint x="596.76" y="377.5" />
+              <mxPoint x="610.76" y="377.5" />
             </Array>
-            <mxPoint x="609.76" y="372.5" as="sourcePoint" />
-            <mxPoint x="609.76" y="415.5" as="targetPoint" />
+            <mxPoint x="598" y="377.5" as="sourcePoint" />
+            <mxPoint x="610.76" y="415.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BQ5WajD2gcJUYFHTgybd-44" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fontSize=14;strokeWidth=2;strokeColor=#0000FF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BQ5WajD2gcJUYFHTgybd-41" value="">
