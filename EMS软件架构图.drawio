@@ -558,7 +558,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y-t4IPL97S17ALsLViR6" name="前置&amp;SCADA架构">
-    <mxGraphModel dx="1664" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2005" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -607,7 +607,7 @@
         <mxCell id="BQ5WajD2gcJUYFHTgybd-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6666FF;strokeColor=#006EAF;fontColor=#ffffff;fillStyle=solid;gradientColor=#CCE5FF;" value="协议转发总线" vertex="1">
           <mxGeometry height="21" width="571.52" x="140.38" y="1345.5" as="geometry" />
         </mxCell>
-        <mxCell id="BQ5WajD2gcJUYFHTgybd-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="MPSC Ring Buffer" vertex="1">
+        <mxCell id="BQ5WajD2gcJUYFHTgybd-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="MPSC Ring Buffer" vertex="1">
           <mxGeometry height="29" width="79" x="352.76" y="519" as="geometry" />
         </mxCell>
         <mxCell id="BQ5WajD2gcJUYFHTgybd-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" value="HA Client" vertex="1">
@@ -678,7 +678,7 @@
             <mxPoint x="465.76" y="431.21000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BQ5WajD2gcJUYFHTgybd-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="&lt;div&gt;MPSC Ring&amp;nbsp;&lt;/div&gt;&lt;div&gt;Buffer&lt;/div&gt;" vertex="1">
+        <mxCell id="BQ5WajD2gcJUYFHTgybd-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" value="&lt;div&gt;MPSC Ring&amp;nbsp;&lt;/div&gt;&lt;div&gt;Buffer&lt;/div&gt;" vertex="1">
           <mxGeometry height="29" width="60" x="487.76" y="414.5" as="geometry" />
         </mxCell>
         <mxCell id="BQ5WajD2gcJUYFHTgybd-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Query" vertex="1">
@@ -952,21 +952,21 @@
           <mxGeometry height="30" width="60" x="1190" y="796" as="geometry" />
         </mxCell>
         <mxCell id="3uursZIeVQPknrpAOZhJ-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" value="应用层" vertex="1">
-          <mxGeometry height="94.5" width="585.76" x="100" y="105.5" as="geometry" />
+          <mxGeometry height="94.5" width="585.76" x="100" y="-104.5" as="geometry" />
         </mxCell>
         <mxCell id="3uursZIeVQPknrpAOZhJ-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="TDengin" vertex="1">
-          <mxGeometry height="40" width="120" x="114" y="140" as="geometry" />
+          <mxGeometry height="40" width="120" x="114" y="-70" as="geometry" />
         </mxCell>
         <mxCell id="3uursZIeVQPknrpAOZhJ-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Redis" vertex="1">
-          <mxGeometry height="40" width="120" x="245.76" y="140" as="geometry" />
+          <mxGeometry height="40" width="120" x="245.76" y="-70" as="geometry" />
         </mxCell>
         <mxCell id="3uursZIeVQPknrpAOZhJ-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="gRPC" vertex="1">
-          <mxGeometry height="40" width="120" x="414" y="140" as="geometry" />
+          <mxGeometry height="40" width="120" x="414" y="-70" as="geometry" />
         </mxCell>
-        <mxCell id="3uursZIeVQPknrpAOZhJ-50" edge="1" parent="1" source="BQ5WajD2gcJUYFHTgybd-1" style="endArrow=classic;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;strokeWidth=2;exitX=0.114;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+        <mxCell id="3uursZIeVQPknrpAOZhJ-50" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;strokeWidth=2;exitX=0.114;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="166.90999999999997" y="280" as="sourcePoint" />
-            <mxPoint x="166.90999999999997" y="180" as="targetPoint" />
+            <mxPoint x="166.77664000000004" y="29.920000000000073" as="sourcePoint" />
+            <mxPoint x="166.90999999999997" y="-30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3uursZIeVQPknrpAOZhJ-51" connectable="0" parent="3uursZIeVQPknrpAOZhJ-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="历史数据" vertex="1">
@@ -976,8 +976,8 @@
         </mxCell>
         <mxCell id="3uursZIeVQPknrpAOZhJ-52" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;strokeWidth=2;exitX=0.114;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="304.09000000000003" y="240" as="sourcePoint" />
-            <mxPoint x="304" y="180" as="targetPoint" />
+            <mxPoint x="304.09000000000003" y="30" as="sourcePoint" />
+            <mxPoint x="304" y="-30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3uursZIeVQPknrpAOZhJ-53" connectable="0" parent="3uursZIeVQPknrpAOZhJ-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="实时数据" vertex="1">
@@ -987,8 +987,8 @@
         </mxCell>
         <mxCell id="3uursZIeVQPknrpAOZhJ-54" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;strokeWidth=2;exitX=0.114;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="473.09000000000003" y="240" as="sourcePoint" />
-            <mxPoint x="473" y="180" as="targetPoint" />
+            <mxPoint x="473.09000000000003" y="30" as="sourcePoint" />
+            <mxPoint x="473" y="-30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3uursZIeVQPknrpAOZhJ-55" connectable="0" parent="3uursZIeVQPknrpAOZhJ-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="报警数据" vertex="1">
@@ -996,8 +996,83 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3uursZIeVQPknrpAOZhJ-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="&lt;div&gt;数据更新&lt;/div&gt;&lt;div&gt;消费线程&lt;/div&gt;" vertex="1">
-          <mxGeometry height="29" width="60" x="250" y="420" as="geometry" />
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Service Manager" vertex="1">
+          <mxGeometry height="178" width="355.35" x="110.75999999999999" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="History Data Service" vertex="1">
+          <mxGeometry height="36.6" width="107.38539898132426" x="117.59361629881153" y="77.44999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Alarm Service" vertex="1">
+          <mxGeometry height="36.6" width="107.38539898132426" x="117.59361629881153" y="123.19999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Edge Computing service" vertex="1">
+          <mxGeometry height="36.6" width="107.38539898132426" x="117.59361629881153" y="168.95" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AGC/AVC Service" vertex="1">
+          <mxGeometry height="36.6" width="107.38539898132426" x="231.81263157894728" y="77.44999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Trace Service" vertex="1">
+          <mxGeometry height="36.6" width="107.38539898132426" x="231.81263157894728" y="123.19999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Edge Script&lt;/div&gt;&lt;div&gt;&amp;nbsp;service&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36.6" width="107.38539898132426" x="231.81263157894728" y="168.95" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Primary Backup service" vertex="1">
+          <mxGeometry height="36.6" width="107.38539898132426" x="348.9603395585739" y="77.44999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="IOT App" vertex="1">
+          <mxGeometry height="178" width="126.91" x="558.8500000000001" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MQTT Manager" vertex="1">
+          <mxGeometry height="27.45" width="107.38539898132426" x="568.6122920203734" y="85.44999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Config Manager" vertex="1">
+          <mxGeometry height="27.45" width="107.38539898132426" x="568.6122920203734" y="122.05000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Realtime Service" vertex="1">
+          <mxGeometry height="36.6" width="107.38539898132426" x="348.9603395585739" y="123.19999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="DB" vertex="1">
+          <mxGeometry height="138" width="78.1" x="470.99" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SQLite" vertex="1">
+          <mxGeometry height="36.6" width="58.57385398981324" x="480.7515110356537" y="77.44999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Config&lt;/div&gt;&lt;div&gt;Json File&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36.6" width="58.57385398981324" x="480.7515110356537" y="123.19999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OTA" vertex="1">
+          <mxGeometry height="27.45" width="107.38539898132426" x="568.6122920203734" y="158.64999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Daemon App" vertex="1">
+          <mxGeometry height="35.26" width="78.1" x="470.8499999999999" y="192.74" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Time Sync" vertex="1">
+          <mxGeometry height="36.6" width="107.38539898132426" x="348.9603395585739" y="168.95" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;Tools&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="178" width="107.39" x="-13.529999999999973" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sys Config Tool" vertex="1">
+          <mxGeometry height="36.6" width="90" x="-4.240000000000009" y="76.30000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" value="HA Client" vertex="1">
+          <mxGeometry height="231.25" width="160" x="750" y="500.38" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="HA Manager" vertex="1">
+          <mxGeometry height="197" width="130" x="767" y="524.63" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;数据同步发送&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;前置状态为Master时，向Standy发送&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46.7" width="110" x="777" y="598.7600000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="通道同步" vertex="1">
+          <mxGeometry height="19.8" width="110" x="777" y="698.83" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;RTDB Client&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;主/备双地址&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;前置状态为Master才发送&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43.04" width="110" x="777" y="551.63" as="geometry" />
+        </mxCell>
+        <mxCell id="Axq99HWBJ5GRNou4I4cn-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;数据同步接收&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;前置状态为Standy时，接收Master发送&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44.12" width="110" x="777" y="650.41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
