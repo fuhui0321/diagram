@@ -558,7 +558,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y-t4IPL97S17ALsLViR6" name="前置&amp;SCADA架构">
-    <mxGraphModel dx="2005" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2491" dy="2095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -997,7 +997,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Axq99HWBJ5GRNou4I4cn-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Service Manager" vertex="1">
-          <mxGeometry height="178" width="355.35" x="110.75999999999999" y="50" as="geometry" />
+          <mxGeometry height="178" width="366.11" x="100" y="50" as="geometry" />
         </mxCell>
         <mxCell id="Axq99HWBJ5GRNou4I4cn-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="History Data Service" vertex="1">
           <mxGeometry height="36.6" width="107.38539898132426" x="117.59361629881153" y="77.44999999999999" as="geometry" />
@@ -1051,10 +1051,10 @@
           <mxGeometry height="36.6" width="107.38539898132426" x="348.9603395585739" y="168.95" as="geometry" />
         </mxCell>
         <mxCell id="Axq99HWBJ5GRNou4I4cn-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;Tools&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="178" width="107.39" x="-13.529999999999973" y="50" as="geometry" />
+          <mxGeometry height="178" width="107.39" x="-18.529999999999973" y="50" as="geometry" />
         </mxCell>
         <mxCell id="Axq99HWBJ5GRNou4I4cn-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sys Config Tool" vertex="1">
-          <mxGeometry height="36.6" width="90" x="-4.240000000000009" y="76.30000000000001" as="geometry" />
+          <mxGeometry height="36.6" width="90" x="-9.240000000000009" y="76.30000000000001" as="geometry" />
         </mxCell>
         <mxCell id="Axq99HWBJ5GRNou4I4cn-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" value="HA Client" vertex="1">
           <mxGeometry height="231.25" width="160" x="750" y="500.38" as="geometry" />
