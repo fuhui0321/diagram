@@ -478,7 +478,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y-t4IPL97S17ALsLViR6" name="前置&amp;SCADA架构">
-    <mxGraphModel dx="3770" dy="2800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1857" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -993,6 +993,50 @@
         </mxCell>
         <mxCell id="Axq99HWBJ5GRNou4I4cn-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;数据同步接收&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;前置状态为Standy时，接收Master发送&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="44.12" width="110" x="727" y="389.03" as="geometry" />
+        </mxCell>
+        <mxCell id="iVrOCl7KbwjMYx6h9INn-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="iVrOCl7KbwjMYx6h9INn-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="EMS Server Monitor" vertex="1">
+          <mxGeometry height="250" width="350" x="-350" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="iVrOCl7KbwjMYx6h9INn-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="EMS Server Manager" vertex="1">
+          <mxGeometry height="250" width="350" x="114.24" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="iVrOCl7KbwjMYx6h9INn-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="" vertex="1">
+          <mxGeometry height="150" width="120" x="320" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="iVrOCl7KbwjMYx6h9INn-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="编号配置" vertex="1">
+          <mxGeometry height="21" width="80" x="340" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="iVrOCl7KbwjMYx6h9INn-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;前置/Scada&lt;/div&gt;&lt;div&gt;服务配置&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="80" x="340" y="1307" as="geometry" />
+        </mxCell>
+        <mxCell id="iVrOCl7KbwjMYx6h9INn-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="双机热备" vertex="1">
+          <mxGeometry height="30" width="80" x="340" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="iVrOCl7KbwjMYx6h9INn-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EMS发现服务" vertex="1">
+          <mxGeometry height="30" width="100" x="-340" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="iVrOCl7KbwjMYx6h9INn-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;配置同步&lt;/div&gt;&lt;div&gt;client&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="-113" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="iVrOCl7KbwjMYx6h9INn-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;配置同步&lt;/div&gt;&lt;div&gt;server&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="130" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="iVrOCl7KbwjMYx6h9INn-11" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="20" y="1294.5" as="sourcePoint" />
+            <mxPoint x="100" y="1294.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVrOCl7KbwjMYx6h9INn-12" connectable="0" parent="iVrOCl7KbwjMYx6h9INn-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TCP" vertex="1">
+          <mxGeometry relative="1" x="-0.245" as="geometry">
+            <mxPoint x="10" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVrOCl7KbwjMYx6h9INn-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;配置更新&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="130" y="1330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
