@@ -478,7 +478,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y-t4IPL97S17ALsLViR6" name="前置&amp;SCADA架构">
-    <mxGraphModel dx="1487" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="1856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1035,14 +1035,14 @@
         <mxCell id="iVrOCl7KbwjMYx6h9INn-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="配置版本检查" vertex="1">
           <mxGeometry height="30" width="80" x="-200" y="1321" as="geometry" />
         </mxCell>
-        <mxCell id="I_3bVGrevH4wnUJybuaL-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" value="Fes HA Service" vertex="1">
-          <mxGeometry height="316.55" width="366.11" x="204.65" y="509.45" as="geometry" />
+        <mxCell id="I_3bVGrevH4wnUJybuaL-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" value="Fes HA Manager" vertex="1">
+          <mxGeometry height="296" width="366.11" x="204.65" y="509.45" as="geometry" />
         </mxCell>
         <mxCell id="I_3bVGrevH4wnUJybuaL-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="HA Manager" vertex="1">
           <mxGeometry height="183.9" width="180" x="380" y="567.3" as="geometry" />
         </mxCell>
         <mxCell id="I_3bVGrevH4wnUJybuaL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;数据同步发送&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;前置状态为Master时，向Standy发送&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="46.7" width="110" x="630" y="402.3000000000002" as="geometry" />
+          <mxGeometry height="46.7" width="110" x="930" y="513.8000000000002" as="geometry" />
         </mxCell>
         <mxCell id="I_3bVGrevH4wnUJybuaL-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="NetHeart" vertex="1">
           <mxGeometry height="19.8" width="110" x="680" y="704.44" as="geometry" />
@@ -1051,37 +1051,49 @@
           <mxGeometry height="183.9" width="160" x="213" y="566.7" as="geometry" />
         </mxCell>
         <mxCell id="I_3bVGrevH4wnUJybuaL-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;数据同步接收&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;前置状态为Standy时，接收Master发送&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="44.12" width="110" x="630" y="469.38" as="geometry" />
+          <mxGeometry height="44.12" width="110" x="930" y="580.88" as="geometry" />
         </mxCell>
         <mxCell id="I_3bVGrevH4wnUJybuaL-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=top;" value="Data" vertex="1">
           <mxGeometry height="75.2" width="147.7" x="89.30000000000001" y="859.75" as="geometry" />
         </mxCell>
         <mxCell id="I_3bVGrevH4wnUJybuaL-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;div&gt;MPSC Ring Buffer&lt;/div&gt;&lt;div&gt;Consumer&lt;/div&gt;" vertex="1">
-          <mxGeometry height="29" width="130" x="213" y="763.5" as="geometry" />
+          <mxGeometry height="29" width="130" x="451.5" y="882.85" as="geometry" />
         </mxCell>
         <mxCell id="I_3bVGrevH4wnUJybuaL-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;div&gt;NetConnect&lt;/div&gt;&lt;div&gt;A(Server)&lt;/div&gt;&lt;div&gt;B(Client)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="79" x="390" y="593.5" as="geometry" />
+          <mxGeometry height="46.7" width="160" x="390" y="593.5" as="geometry" />
         </mxCell>
         <mxCell id="I_3bVGrevH4wnUJybuaL-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;div&gt;&amp;nbsp;Data&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Module&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="90" x="219.36" y="595" as="geometry" />
         </mxCell>
         <mxCell id="I_3bVGrevH4wnUJybuaL-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="Scada Heartbeat Module" vertex="1">
-          <mxGeometry height="30" width="90" x="220.24" y="630" as="geometry" />
+          <mxGeometry height="30" width="90" x="219.36" y="656.25" as="geometry" />
         </mxCell>
-        <mxCell id="I_3bVGrevH4wnUJybuaL-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="Data Sync" vertex="1">
-          <mxGeometry height="28" width="79" x="477" y="593.5" as="geometry" />
+        <mxCell id="I_3bVGrevH4wnUJybuaL-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="Data Sync&lt;div&gt;send&lt;/div&gt;" vertex="1">
+          <mxGeometry height="28" width="79" x="390" y="691.24" as="geometry" />
         </mxCell>
         <mxCell id="I_3bVGrevH4wnUJybuaL-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="Heartbeat" vertex="1">
-          <mxGeometry height="28" width="79" x="477" y="625" as="geometry" />
+          <mxGeometry height="28" width="79" x="390" y="653.25" as="geometry" />
         </mxCell>
-        <mxCell id="I_3bVGrevH4wnUJybuaL-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="" vertex="1">
-          <mxGeometry height="28" width="79" x="477" y="659.33" as="geometry" />
+        <mxCell id="I_3bVGrevH4wnUJybuaL-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="Data Sync&lt;div&gt;recv&lt;/div&gt;" vertex="1">
+          <mxGeometry height="28" width="79" x="476" y="691.34" as="geometry" />
         </mxCell>
         <mxCell id="I_3bVGrevH4wnUJybuaL-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;div&gt;SPSC Ring Buffer&lt;/div&gt;Producer" vertex="1">
-          <mxGeometry height="29" width="130" x="380" y="763.5" as="geometry" />
+          <mxGeometry height="29" width="130" x="625" y="820.25" as="geometry" />
         </mxCell>
         <mxCell id="I_3bVGrevH4wnUJybuaL-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;SCADA Client&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;主/备双地址&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;前置状态为Master才发送&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="43.04" width="126.91" x="34.29" y="566.7" as="geometry" />
+        </mxCell>
+        <mxCell id="KTbCQa7datTR2x30d6RK-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" value="Scada HA Manager" vertex="1">
+          <mxGeometry height="215" width="366.11" x="204.65" y="273.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KTbCQa7datTR2x30d6RK-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;verticalAlign=top;" value="SCADA Server" vertex="1">
+          <mxGeometry height="157.98" width="160" x="213" y="311.02" as="geometry" />
+        </mxCell>
+        <mxCell id="KTbCQa7datTR2x30d6RK-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;verticalAlign=top;" value="Ha Manager" vertex="1">
+          <mxGeometry height="157.98" width="160" x="390" y="311.02" as="geometry" />
+        </mxCell>
+        <mxCell id="KTbCQa7datTR2x30d6RK-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="Negotiaion" vertex="1">
+          <mxGeometry height="28" width="79" x="477" y="654.33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
