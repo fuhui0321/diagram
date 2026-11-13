@@ -1285,7 +1285,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xXWQEnlKLbZ8da6WwJoc" name="第 5 页">
-    <mxGraphModel dx="1231" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="976" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1307,17 +1307,53 @@
         <mxCell id="2xYn87X_gsYIGl-ZsKjP-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="属性面板" vertex="1">
           <mxGeometry height="325" width="130" x="600" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="2xYn87X_gsYIGl-ZsKjP-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="资源管理器" vertex="1">
+        <mxCell id="2xYn87X_gsYIGl-ZsKjP-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;flipV=1;legacyAnchorPoints=0;horizontal=0;" value="&lt;div&gt;Side Bar&lt;/div&gt;" vertex="1">
           <mxGeometry height="375" width="60" x="160" y="185" as="geometry" />
         </mxCell>
-        <mxCell id="2xYn87X_gsYIGl-ZsKjP-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;legacyAnchorPoints=0;flipH=1;horizontal=0;" value="side bar" vertex="1">
+        <mxCell id="2xYn87X_gsYIGl-ZsKjP-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;flipV=1;legacyAnchorPoints=0;flipH=1;horizontal=0;" value="Active Bar" vertex="1">
           <mxGeometry height="375" width="40" x="120" y="185" as="geometry" />
         </mxCell>
         <mxCell id="2xYn87X_gsYIGl-ZsKjP-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="325" width="380" x="220" y="210" as="geometry" />
         </mxCell>
         <mxCell id="2xYn87X_gsYIGl-ZsKjP-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="140" width="630" x="110" y="600" as="geometry" />
+          <mxGeometry height="300" width="630" x="110" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="yl-JqkFW_lJXFwnz7ViI-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="项目" vertex="1">
+          <mxGeometry height="25" width="40" x="120" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="yl-JqkFW_lJXFwnz7ViI-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="采集" vertex="1">
+          <mxGeometry height="25" width="40" x="120" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="yl-JqkFW_lJXFwnz7ViI-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="组态" vertex="1">
+          <mxGeometry height="25" width="40" x="120" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="yl-JqkFW_lJXFwnz7ViI-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="报警" vertex="1">
+          <mxGeometry height="25" width="40" x="120" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yl-JqkFW_lJXFwnz7ViI-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="脚本" vertex="1">
+          <mxGeometry height="25" width="40" x="120" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="yl-JqkFW_lJXFwnz7ViI-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="历史" vertex="1">
+          <mxGeometry height="25" width="40" x="120" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="yl-JqkFW_lJXFwnz7ViI-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="设置" vertex="1">
+          <mxGeometry height="25" width="40" x="120" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="yl-JqkFW_lJXFwnz7ViI-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Debug" vertex="1">
+          <mxGeometry height="25" width="40" x="120" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="yl-JqkFW_lJXFwnz7ViI-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Scada IDE 宿主可执行程序" vertex="1">
+          <mxGeometry height="25" width="630" x="110" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="yl-JqkFW_lJXFwnz7ViI-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Shell 层（与业务无关）&amp;nbsp; MainWindow / TitleBar / 六区布局 / StatusBar" vertex="1">
+          <mxGeometry height="35" width="630" x="110" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="yl-JqkFW_lJXFwnz7ViI-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="630" x="110" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="yl-JqkFW_lJXFwnz7ViI-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" value="资源管理器" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="185" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
